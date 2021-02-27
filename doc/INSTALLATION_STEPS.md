@@ -67,3 +67,10 @@ $ sudo apt-get install docker-ce=<VERSION_STRING> docker-ce-cli=<VERSION_STRING>
 $ sudo docker run hello-world
 ````
 
+* To Remove a Image
+ 
+-f is used for forced removal 
+````
+docker rmi -f hello-world
+````
+
